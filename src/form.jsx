@@ -30,7 +30,7 @@ function App() {
             formData.append('file', file);
 
             // Replace 'YOUR_API_ENDPOINT' with your actual API endpoint
-            await axios.post('https://aadhar-card-ocr-system-1.onrender.com/upload', formData, {
+            await axios.post('https://127.0.0.1:5000/upload', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
