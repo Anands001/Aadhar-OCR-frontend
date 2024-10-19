@@ -30,7 +30,7 @@ function App() {
             formData.append('file', file);
 
             // Replace 'YOUR_API_ENDPOINT' with your actual API endpoint
-            await axios.post('http://10.214.182.86:10000/upload', formData, {
+            await axios.post('https://10.214.182.86:10000/upload', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
